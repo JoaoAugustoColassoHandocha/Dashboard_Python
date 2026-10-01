@@ -43,3 +43,5 @@ app.layout = html.Div(
     ]
     
 )
+
+# Run the application
