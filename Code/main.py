@@ -15,7 +15,21 @@ app.layout = html.Div(
     
     children = [
         
-        html.H1
+        html.H1('Dashboard'),
+        dcc.Graph(
+            
+            id = 'Graph',
+            figure = {
+                
+                'Data':[
+                    
+                    
+                    
+                ]
+                
+            }
+            
+        )
         
     ]
     
