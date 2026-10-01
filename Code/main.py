@@ -11,4 +11,12 @@ import dash_html_components as html
 app = dash.Dash(__name__)
 
 # Define the layout of the Dashboard
-app
+app.layout = html.Div(
+    
+    children = [
+        
+        html.H1
+        
+    ]
+    
+)
